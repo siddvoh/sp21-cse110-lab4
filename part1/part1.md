@@ -34,4 +34,10 @@
 10. 3 will be printed to the concsole at line 12. This is because line 12 prints the value of length. 'length' has been defined as a constant which contains the length of the 'prices' array. The 'prices' array has 3 elements (100,200,300) and thus has a length of 3. 'length' is therefore set to 3 at line 4 and its value does not change during the running of the given function. Hence, at line 12, 3 is printed to the console.
 
 11. The function returns a const array of [50, 100, 150]. A const array containing the numbers 50,100 and 150 are returned at 0th,1st and 2nd indices respectively. This const array 'discounted', which is returned, contains the value of 'discountedPrice' for each of the iterations which have been pushed into this array for every iteration at line 8. This is allowed because a const array can not be re-assigned but its elements may be changed. Hence,  When i=0, dicsountedPrice = 50 and hence discounted[0] = 50.  When i=1, dicsountedPrice = 100 and hence discounted[1] = 100.  When i=2, dicsountedPrice = 150 and hence discounted[2] = 150.  So, the function returns const 'discounted' array which is [50,100,150].
+
+12. A. student['name']
+12. B. student['Grad Year']
+12. C. student.greeting()
+12. D. student['Favorite Teacher']['name']
+12. E. student['courseLoad'][0]
  
