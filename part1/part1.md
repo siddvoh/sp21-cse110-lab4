@@ -41,3 +41,22 @@
     D. student['Favorite Teacher']['name']
     E. student['courseLoad'][0]
  
+ 13. A. '32'. This is so because the integer(2) map to their exact string representation and then both the strings '3' and '2' are combined.
+     B. 1 . This is so because '3' is converted into an integer and then 3-2=1 is calculated.
+     C. 3 . This is so because null, on undergoing numeric conversion, changes to 0 and then 3+0=3 is calculated.
+     D. 3null . This is so because null, on undergoing string conversion, changes to 'null' and then both the strings '3' and 'null' are combined.
+     E. 4 . This is so because true, on undergoing numeric conversion, changes to 1 and then 1+3=4 is calculated.
+     F. 0 . This is so because false and null, on undergoing numeric conversion, change to 0 and 0 respectively and then 0+0=0 is calculated.
+     G. 3undefined . This is so because undefined, on undergoing string conversion, changes to 'undefined' and then both the strings '3' and 'undefined' are combined.
+     H. NaN . This is so because undefined, on undergoing numeric conversion, changes to NaN and then no calculation is done and NaN is returned.
+  
+ 14. A. true . This is so because the comparison operator '>' converts '2' to 2 and then returns true as 2 > 1.
+     B. false . This is so because the comparison operator '<' compares the first 2 characters of both the strings and returns false as 2<1 is false.
+     C. true . This is so because the equality checker '==' compares the two values after  numerically converting the '2' to 2 and returns true as 2 == 2 is true.
+     D. false . This is so because '===' compares the types of '2' and 2  and returns false immediately as '2' is a string but 2 is an integer.
+     E. false . This is so because the equality checker '==' compares the two values after numerically converting the true to 1 and returns false as 1 == 2 is false.
+     F. true . This is so because compares the types of true and Boolean(2) first and returns true immediately as both true and Boolean(2) are both Booleans.
+     
+ 15.
+     
+     
