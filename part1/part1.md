@@ -36,8 +36,8 @@
 11. The function returns a const array of [50, 100, 150]. A const array containing the numbers 50,100 and 150 are returned at 0th,1st and 2nd indices respectively. This const array 'discounted', which is returned, contains the value of 'discountedPrice' for each of the iterations which have been pushed into this array for every iteration at line 8. This is allowed because a const array can not be re-assigned but its elements may be changed. Hence,  When i=0, dicsountedPrice = 50 and hence discounted[0] = 50.  When i=1, dicsountedPrice = 100 and hence discounted[1] = 100.  When i=2, dicsountedPrice = 150 and hence discounted[2] = 150.  So, the function returns const 'discounted' array which is [50,100,150].
 
 12. A. student['name']
-12. B. student['Grad Year']
-12. C. student.greeting()
-12. D. student['Favorite Teacher']['name']
-12. E. student['courseLoad'][0]
+    B. student['Grad Year']
+    C. student.greeting()
+    D. student['Favorite Teacher']['name']
+    E. student['courseLoad'][0]
  
