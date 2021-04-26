@@ -57,6 +57,12 @@
      E. false . This is so because the equality checker '==' compares the two values after numerically converting the true to 1 and returns false as 1 == 2 is false.
      F. true . This is so because compares the types of true and Boolean(2) first and returns true immediately as both true and Boolean(2) are both Booleans.
      
- 15.
+ 15. The equality operator '==' does all the necessary type conversion(s) and then compares the terms on its left and right side. Hence, even if the types of the two terms are initially different, it does not matter and only the type comverted values need to be equal for '==' to return true.
+ On the other hand, the strict equality operator '===' does not do any type conversions and hence only returns true when the terms on its left and right hand side are equal in value AND are of the exact same type.
+ 
+16. part1b-question16.js attached in the folder.
+17. When the 'modifyArray' function is called with the given array ([1,2,3]) and the callback function 'doSomething'), it will return a const array with the values [2,4,6]. This is so because when we call the 'modifyArray' function with our array, the function initliazes a new empty const array. Then, we iterate through each element of our inital array and call the callback function for each element. The callback function simply multiplies each element by 2 and returns the value. We then take this returned value and add it to our new const array. At the end of the function, we return the new const array with the values returned by our callback function. Hence, when i=0, we push 2 to the const array. At i=1 and i=2 we push 4 and 6 to the const array resulting in the function call returning the const array [2,4,6].
+18. 
+
      
      
